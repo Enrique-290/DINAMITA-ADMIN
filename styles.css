@@ -1,0 +1,6 @@
+.side{position:fixed;left:0;top:0;bottom:0;width:220px;padding:10px;border-right:1px solid #e2e8f0;background:#fff}
+.content{margin-left:240px;padding:16px;font-family:system-ui}
+.login{max-width:360px;margin:10vh auto;font-family:system-ui;border:1px solid #e2e8f0;padding:16px;border-radius:12px}
+.tiles{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.tile{border:1px solid #e2e8f0;padding:12px;border-radius:10px}
+.muted{opacity:.7;font-size:.9rem}
