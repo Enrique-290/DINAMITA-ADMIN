@@ -1,0 +1,9 @@
+<!doctype html><meta charset="utf-8">
+<title>Dinamita Admin</title>
+<link rel="stylesheet" href="styles.css">
+<div class="login"><h1>Acceso Admin</h1>
+<form id="f"><input placeholder="correo"><input type="password" placeholder="contraseña"><button>Entrar (demo)</button></form>
+<p class="muted">Demo visual (sin backend). En producción: JWT + 2FA + IP segura.</p></div>
+<script>
+document.getElementById('f').addEventListener('submit', e=>{e.preventDefault(); localStorage.setItem('dinamita_admin_auth','1'); location='dashboard.html';});
+</script>
