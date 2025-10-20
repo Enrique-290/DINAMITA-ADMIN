@@ -1,5 +1,5 @@
 <!doctype html><meta charset="utf-8">
-<title>Dashboard – Dinamita Admin</title>
+<title>Productos – Dinamita Admin</title>
 <link rel="stylesheet" href="styles.css"><script defer src="app.js"></script>
 <aside class="side">
   <div class="brand">DINAMITA • ADMIN</div>
@@ -13,9 +13,13 @@
   </nav>
 </aside>
 <main class="content">
-  <h1>Panel Dinamita (demo)</h1>
-  <div class="tiles">
-    <div class="tile">Productos: 128</div>
-    <div class="tile">Suplementos: 64</div>
+  <h1>Productos</h1>
+  <div class="filters">
+    <input placeholder="Buscar">
+    <select><option>Todos</option><option>Suplementos</option><option>Accesorios</option></select>
   </div>
+  <table class="table" id="tblProducts">
+    <thead><tr><th>Nombre</th><th>Marca</th><th>Categoría</th><th>Precio</th><th>Best</th></tr></thead>
+    <tbody></tbody>
+  </table>
 </main>
